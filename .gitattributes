@@ -1,0 +1,7 @@
+* text=auto
+
+# Shell scripts must use LF so WSL/bash shebangs work (avoid `bash\r`).
+*.sh text eol=lf
+
+# PowerShell scripts on Windows are fine with CRLF.
+*.ps1 text eol=crlf
